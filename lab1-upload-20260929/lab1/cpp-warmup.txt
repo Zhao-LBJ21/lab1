@@ -1,0 +1,10 @@
+Operators 1: i = 2, j = 1.
+Operators 2: b (42 < 42 is false).
+References and Pointers 1: 10 10 (ri refers to i).
+References and Pointers 2: 1764 (42 multiplied by 42).
+References and Pointers 3: 0 (24 minus 24).
+References and Pointers 4: 0 (reset changes j through a reference).
+Numbers 1: All store integers. On typical 64-bit Ubuntu, short=2, int=4, long=8, long long=8 bytes; exact sizes depend on the platform.
+Numbers 2: float typically has about 7 significant digits; double about 15. Assigning 3.14 to int gives i = 3.
+Numbers 3: Signed types represent negative values; unsigned types do not. With 8-bit unsigned char, c = 255.
+Numbers 4: i = 0 because 42 makes the if condition true.
